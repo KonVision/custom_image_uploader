@@ -52,17 +52,17 @@ Some errors you may encounter:
 Error 404:
 
 
-      -> Make sure you actually call the php script, and not some other website / make sure apache / nginx is running
+     Make sure you actually call the php script, and not some other website / make sure apache / nginx is running
   
   
   
 Sorry, your file could not be uploaded:
 
 
-     -> Make sure you have php 7.4 installed & that the service is running (systemctl status php7.4-fpm)
+     Make sure you have php 7.4 installed & that the service is running (systemctl status php7.4-fpm)
   
   
-    -> make sure your php script hast permissions to create files (sudo chown -R www-data:www-data /var/www)
+     Make sure your php script hast permissions to create files (sudo chown -R www-data:www-data /var/www)
   
   
  
