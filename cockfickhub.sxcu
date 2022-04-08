@@ -1,0 +1,12 @@
+﻿{
+  "Version": "13.7.0",
+  "Name": "php",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://rapeskids.wtf/v1/upload.php",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "k": "touploadornottoupload"
+  },
+  "FileFormName": "d"
+}
