@@ -3,10 +3,10 @@
   "Name": "php",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://rapeskids.wtf/v1/upload.php",
+  "RequestURL": "https://yourdomain.com/upload.php",
   "Body": "MultipartFormData",
   "Arguments": {
-    "k": "touploadornottoupload"
+    "k": "YOUR SECURITY KEY"
   },
   "FileFormName": "d"
 }
