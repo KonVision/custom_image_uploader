@@ -1,6 +1,6 @@
 ﻿{
   "Version": "13.7.0",
-  "Name": "php",
+  "Name": "imageuploader",
   "DestinationType": "ImageUploader",
   "RequestMethod": "POST",
   "RequestURL": "https://yourdomain.com/upload.php",
