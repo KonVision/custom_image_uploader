@@ -1,4 +1,4 @@
-# Simple php image uploader 
+# PHP image uploader 
 
 This is a simple and lightweight image uploder, that you can use to build a bigger project with. 
 The uploader is a simple php file that saves an image from a POST request to a folder and sends you the url to access the image.
