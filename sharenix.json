@@ -1,0 +1,11 @@
+{
+  "Name": "ShareX Uploader",
+  "RequestType": "POST",
+  "RequestURL": domain,
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "key": uploadsecret
+  },
+  "FileFormName": "file",
+  "URL": "$json:url$"
+}
