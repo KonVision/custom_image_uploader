@@ -25,6 +25,8 @@ All images / Files are going to embed in applications like Discord/WhatsApp.
     - Request URL = API URL (e.g. `http://yourdomain.com/upload.php`)
 
     - Optional: d = file name
+
+> If you want to learn more about the configuration files and how to generate them, [this might interest you](https://github.com/KonVision/configuration-file-generators).
   
 4. Upload images by using ShareX or ShareNix!
 
