@@ -1,6 +1,6 @@
 <?php
 header("Content-Type: text/text");
-$key = "SECURITY KEY GOES HERE";
+$key = "YOUR_UPLOAD_SECRET";
 $uploadhost = "https://yourdomain.com/";
 $redirect = "https://redirect_on_upload.com";
 if ($_SERVER["REQUEST_URI"] == "/robot.txt") { die("User-agent: *\nDisallow: /"); }
