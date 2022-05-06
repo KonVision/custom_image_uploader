@@ -1,9 +1,10 @@
 # PHP Image Uploader 
 
-This is a simple and lightweight image uploader, that you can use to build a bigger project with. 
-The uploader is a simple PHP file that saves an image from a POST request to a folder and sends you the URL to access the image.
+This is a simple and lightweight image uploader written in PHP.
 
-All images / Files are going to embed in applications like Discord/WhatsApp.
+The PHP script saves an image from a `POST`-Request to a folder and sends you the URL to access the image, when being called.
+
+All images / files can embed in applications such as Discord/WhatsApp.
 
 # Setup
 
