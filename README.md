@@ -1,68 +1,45 @@
 # PHP image uploader 
 
-This is a simple and lightweight image uploder, that you can use to build a bigger project with. 
-The uploader is a simple php file that saves an image from a POST request to a folder and sends you the url to access the image.
+This is a simple and lightweight image uploader, that you can use to build a bigger project with. 
+The uploader is a simple PHP file that saves an image from a POST request to a folder and sends you the URL to access the image.
 
-All images / Files are going to embed in applications like discord/ whatsapp.
+All images / Files are going to embed in applications like Discord/WhatsApp.
 
 # Setup:
 
-1. Copy the upload.php file and upload it to your web server. (Example: /var/www/website/upload.php)
+1. Copy the upload.php file and upload it to your web server. (Example: `/var/www/website/upload.php`)
 
-3. Customize the script:
+2. Customize the script:
 
+    - Line 3: Exchange `YOUR_UPLOAD_SECRET` with your upload secret (for example random generated string e.g. of 20 characters).
+  
+    - Line 4: Exchange the upload host with the domain of the upload script (e.g. `http://yourdomain.com/upload.php`)
+  
+    - Line 5: Optional: Add a redirect URL, that you get redirected to, in case someone calls the website without an image uploader.
+  
+  
+3. Run the [`ShareX.sxcu`](https://github.com/KonVision/custom_image_uploader/blob/main/sharex.sxcu)-File (if you want to use [ShareX](https://getsharex.com)) or the [`ShareNix.json`](https://github.com/KonVision/custom_image_uploader/blob/main/sharenix.json)-File (if you want to use [ShareNix](https://github.com/Francesco149/sharenix)) from the repository, and customize the custom uploader settings to fit your configuration of the [`upload.php`](https://github.com/KonVision/custom_image_uploader/blob/main/upload.php)-Script.
 
-    -> Line 3: Exchange the SECRET KEY with your upload key 
+    - k = upload secret
   
-  
-    -> Line 4: Exchange the uploadhost with the domain that has the upload script: (Ex: https : //domain .wtf/images/upload.php)
-  
-  
-    -> Line 5: Optioal: Add a redirect url, that you get redirected to, in care someone calls the website without a image uploader.
-  
-  
-3. Run the .sxcu file from the repo, and customize the custom uploader settings to fir your configuration of the upload.php
+    - Request URL = API URL (e.g. `http://yourdomain.com/upload.php`)
 
-
-     -> k = secret key
+    - Optional: d = file name
   
-  
-     -> File from name: d
-  
-  
-     -> Destination Type: Image uploader
-  
-  
-     -> Method: POST
-  
-  
-      -> Request URL: https:// yourdomain .com/upload.php
-  
-  
-4. Upload images.
+4. Upload images by using ShareX or ShareNix!
 
 
-
-# Troubleshooting:
+# Troubleshooting
 
 Some errors you may encounter:
-
-
-  
-Error 404:
-
-
-     Make sure you actually call the php script, and not some other website / make sure apache / nginx is running
-  
-  
-  
-Sorry, your file could not be uploaded:
-
-
-     Make sure you have php 7.4 installed & that the service is running (systemctl status php7.4-fpm)
-  
-  
-     Make sure your php script hast permissions to create files (sudo chown -R www-data:www-data /var/www)
-  
-  
  
+### `Error 404`
+
+> Make sure you actually call the php script, and not some other website.
+> Make sure your Apache/nginx server is running.
+  
+### `Sorry, your file could not be uploaded.`
+
+> Make sure you have PHP 7.4 installed & that the service is running (`systemctl status php7.4-fpm`).
+  
+> Make sure your PHP script has permissions to create files (`sudo chown -R www-data:www-data /var/www`)`
