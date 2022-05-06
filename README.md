@@ -5,7 +5,7 @@ The uploader is a simple PHP file that saves an image from a POST request to a f
 
 All images / Files are going to embed in applications like Discord/WhatsApp.
 
-# Setup:
+# Setup
 
 1. Copy the upload.php file and upload it to your web server. (Example: `/var/www/website/upload.php`)
 
