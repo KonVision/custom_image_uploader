@@ -2,9 +2,9 @@
 
 This is a simple and lightweight image uploader written in PHP.
 
-The PHP script saves an image from a `POST`-Request to a folder and sends you the URL to access the image, when being called.
+The PHP script saves an image from a `POST`-Request to a folder and sends you the URL to access the image when being called.
 
-All images / files can embed in applications such as Discord/WhatsApp.
+All images/files can embed in applications such as Discord/WhatsApp.
 
 # Setup
 
@@ -43,9 +43,9 @@ Some errors you may encounter:
  
 ### `Error 404`
 
-> Make sure you actually call the php script, and not some other website.
+> Make sure you call the PHP script, and not some other website.
 
-> Make sure your Apache/nginx server is running.
+> Make sure your Apache/Nginx server is running.
   
 ### `Sorry, your file could not be uploaded.`
 
