@@ -51,4 +51,4 @@ Some errors you may encounter:
 
 > Make sure you have PHP 7.4 installed & that the service is running (`systemctl status php7.4-fpm`).
   
-> Make sure your PHP script has permissions to create files (`sudo chown -R www-data:www-data /var/www`)`
+> Make sure your PHP script has permissions to create files (`sudo chown -R www-data:www-data /var/www`).
